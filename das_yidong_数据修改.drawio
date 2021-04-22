@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T02:27:48.408Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" version="14.6.5" etag="ZIcohKGtH2uK8KAmu_xo" type="github"><diagram id="mXKHCDsz04P960MTHq86">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-22T02:41:58.094Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="krCJio6EpI5pv-S_i1v0" version="14.6.5" type="github">
+  <diagram id="mXKHCDsz04P960MTHq86" name="Page-1">
+    <mxGraphModel dx="1298" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="flXH58s6POCcIjlO9GK9-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="flXH58s6POCcIjlO9GK9-1" target="flXH58s6POCcIjlO9GK9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flXH58s6POCcIjlO9GK9-1" value="章节异动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flXH58s6POCcIjlO9GK9-2" value="事务的ID以新block为主ID，记录relayLog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flXH58s6POCcIjlO9GK9-3" value="因为老的block&lt;br&gt;不会再有修改" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="195" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="flXH58s6POCcIjlO9GK9-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF3333;" edge="1" parent="1" source="flXH58s6POCcIjlO9GK9-6" target="flXH58s6POCcIjlO9GK9-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flXH58s6POCcIjlO9GK9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="flXH58s6POCcIjlO9GK9-6" target="flXH58s6POCcIjlO9GK9-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flXH58s6POCcIjlO9GK9-6" value="50个user为单位&lt;br&gt;并发分别处理逻辑&amp;amp;准备数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flXH58s6POCcIjlO9GK9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="flXH58s6POCcIjlO9GK9-7" target="flXH58s6POCcIjlO9GK9-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flXH58s6POCcIjlO9GK9-7" value="标记学生老的block为删除状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flXH58s6POCcIjlO9GK9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="flXH58s6POCcIjlO9GK9-8" target="flXH58s6POCcIjlO9GK9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flXH58s6POCcIjlO9GK9-8" value="创建事务" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flXH58s6POCcIjlO9GK9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="flXH58s6POCcIjlO9GK9-11" target="flXH58s6POCcIjlO9GK9-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flXH58s6POCcIjlO9GK9-11" value="新增block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flXH58s6POCcIjlO9GK9-13" value="事务commit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flXH58s6POCcIjlO9GK9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF3333;" edge="1" parent="1" source="flXH58s6POCcIjlO9GK9-15" target="flXH58s6POCcIjlO9GK9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flXH58s6POCcIjlO9GK9-15" value="组合数据，一起插入数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flXH58s6POCcIjlO9GK9-22" value="解锁时间修改类似，就不画了" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flXH58s6POCcIjlO9GK9-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="flXH58s6POCcIjlO9GK9-23" target="flXH58s6POCcIjlO9GK9-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flXH58s6POCcIjlO9GK9-23" value="&lt;font&gt;&lt;b&gt;判断是否已经解锁，解锁略过&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flXH58s6POCcIjlO9GK9-24" value="&lt;span style=&quot;color: rgb(255 , 51 , 51) ; font-weight: 700&quot;&gt;处理的都是未解锁的，&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 51 , 51) ; font-weight: 700&quot;&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51) ; font-weight: 700&quot;&gt;所以不会有用户修改解锁时间？&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="flXH58s6POCcIjlO9GK9-26" value="单个处理处理要模版化，输出数据。下面统一组装" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="510" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
