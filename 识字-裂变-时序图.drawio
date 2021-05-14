@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T02:50:53.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="q4Wd25rLeGGCKNCo92Sr" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-14T03:13:36.247Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="L2tZlALS__3NxGhFQxNV" version="14.6.12" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1298" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="老用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="80" width="100" height="510" as="geometry" />
+          <mxGeometry x="120" y="80" width="100" height="760" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
@@ -22,15 +22,21 @@
           <mxGeometry x="45" y="280" width="10" height="140" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="新用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="80" width="100" height="500" as="geometry" />
+          <mxGeometry x="410" y="80" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="45" y="360" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="A21pDqTjCbYsjFOHH4IJ-37" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="45" y="530" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="请求大厅信息&#xa;/shizi-api/hall/getInfo" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="A21pDqTjCbYsjFOHH4IJ-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="275" y="160" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A21pDqTjCbYsjFOHH4IJ-1" value="Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="80" width="100" height="540" as="geometry" />
+        <mxCell id="A21pDqTjCbYsjFOHH4IJ-1" value="活动Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="80" width="100" height="760" as="geometry" />
         </mxCell>
         <mxCell id="A21pDqTjCbYsjFOHH4IJ-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="A21pDqTjCbYsjFOHH4IJ-1">
           <mxGeometry x="45" y="80" width="10" height="60" as="geometry" />
@@ -41,8 +47,8 @@
         <mxCell id="A21pDqTjCbYsjFOHH4IJ-17" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="A21pDqTjCbYsjFOHH4IJ-1">
           <mxGeometry x="45" y="280" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="345" y="520" width="10" height="160" as="geometry" />
+        <mxCell id="A21pDqTjCbYsjFOHH4IJ-25" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="A21pDqTjCbYsjFOHH4IJ-1">
+          <mxGeometry x="45" y="410" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="A21pDqTjCbYsjFOHH4IJ-13" value="返回当前是否有活动&amp;活动基础信息" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=1.4;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A21pDqTjCbYsjFOHH4IJ-1" target="3nuBFxr9cyL0pnOWT2aG-2">
           <mxGeometry relative="1" as="geometry">
@@ -62,13 +68,13 @@
             <mxPoint x="370" y="421.9999999999998" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A21pDqTjCbYsjFOHH4IJ-18" value="用户发起活动&#xa;/shizi-activity/client/activity/initiator/create" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.1;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A21pDqTjCbYsjFOHH4IJ-16">
+        <mxCell id="A21pDqTjCbYsjFOHH4IJ-18" value="用户发起活动&#xa;/shizi-activity/client/activity/initiator/create" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.3;entryY=0.183;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A21pDqTjCbYsjFOHH4IJ-16" target="A21pDqTjCbYsjFOHH4IJ-17">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="370" as="sourcePoint" />
             <mxPoint x="536" y="370.02" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A21pDqTjCbYsjFOHH4IJ-19" value="返回用户的活动ID" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="A21pDqTjCbYsjFOHH4IJ-19" value="返回用户的活动ID" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="A21pDqTjCbYsjFOHH4IJ-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="400" as="targetPoint" />
             <mxPoint x="536.5" y="400" as="sourcePoint" />
@@ -89,6 +95,53 @@
         </mxCell>
         <mxCell id="A21pDqTjCbYsjFOHH4IJ-22" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="430" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A21pDqTjCbYsjFOHH4IJ-26" value="注册" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.1;entryY=0.229;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="A21pDqTjCbYsjFOHH4IJ-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="500" as="sourcePoint" />
+            <mxPoint x="541" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A21pDqTjCbYsjFOHH4IJ-27" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="440" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A21pDqTjCbYsjFOHH4IJ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.9;entryY=0.48;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A21pDqTjCbYsjFOHH4IJ-27" target="A21pDqTjCbYsjFOHH4IJ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A21pDqTjCbYsjFOHH4IJ-30" value="扫码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A21pDqTjCbYsjFOHH4IJ-29">
+          <mxGeometry x="0.1273" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A21pDqTjCbYsjFOHH4IJ-31" value="领取新用户礼包&#xa;/shizi-activity/client/activity/participant/reward" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="549" as="sourcePoint" />
+            <mxPoint x="729.5" y="549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A21pDqTjCbYsjFOHH4IJ-32" value="主App Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="80" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="A21pDqTjCbYsjFOHH4IJ-36" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="A21pDqTjCbYsjFOHH4IJ-32">
+          <mxGeometry x="45" y="410" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A21pDqTjCbYsjFOHH4IJ-39" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="A21pDqTjCbYsjFOHH4IJ-32">
+          <mxGeometry x="45" y="530" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A21pDqTjCbYsjFOHH4IJ-38" value="登陆" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.1;entryY=0.229;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465.5" y="630" as="sourcePoint" />
+            <mxPoint x="994.5" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A21pDqTjCbYsjFOHH4IJ-40" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="725" y="640" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A21pDqTjCbYsjFOHH4IJ-41" value="通知活动服务登陆成功&#xa;/shizi-activity/inner/" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="660" as="targetPoint" />
+            <mxPoint x="999.5" y="660" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
