@@ -1,1 +1,128 @@
-<mxfile host="app.diagrams.net" modified="2021-05-15T10:21:04.139Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.6.13" etag="rCClpNZvG89dsCysJGyl" type="github"><diagram id="5VuVzdMT9vKq_EmZpIeq">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-16T03:19:58.177Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="F7Onq7czTy_Pzi7h-ub7" version="14.6.13" type="github">
+  <diagram id="5VuVzdMT9vKq_EmZpIeq" name="Page-1">
+    <mxGraphModel dx="2125" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6V99o7FiydnXsoHUSXtA-17" value="识字" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="120" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-18" value="拼音" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="120" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-32" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="220" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-35" value="设备C1登陆识字" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="230" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6V99o7FiydnXsoHUSXtA-36" target="6V99o7FiydnXsoHUSXtA-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-43" value="uid相同，数据继承" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6V99o7FiydnXsoHUSXtA-42">
+          <mxGeometry y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-36" value="1⃣️游客模式&lt;br&gt;uid1，app_id=0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6V99o7FiydnXsoHUSXtA-37" target="6V99o7FiydnXsoHUSXtA-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-50" value="uid相同，数据继承" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6V99o7FiydnXsoHUSXtA-49">
+          <mxGeometry x="-0.06" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-37" value="2⃣️游客模式&lt;br&gt;uid1，app_id=1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6V99o7FiydnXsoHUSXtA-38" target="6V99o7FiydnXsoHUSXtA-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-59" value="数据依然保留，可以继续玩。" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6V99o7FiydnXsoHUSXtA-58">
+          <mxGeometry x="-0.12" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-38" value="3⃣️注册账户&lt;br&gt;uid1，app_id=0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-40" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="380" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-41" value="手机号P1在设备C1上注册识字" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-65" y="390" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6V99o7FiydnXsoHUSXtA-44" target="6V99o7FiydnXsoHUSXtA-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-62" value="数据依然保留，可以继续玩" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6V99o7FiydnXsoHUSXtA-61">
+          <mxGeometry x="-0.04" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-44" value="4⃣️注册账户&lt;br&gt;uid1，app_id=1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-47" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="740" y="380" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-48" value="手机号P1在设备C1上注册拼音" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="390" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-51" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="740" y="220" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-52" value="执行了3⃣️步骤后，游客模式依然可以继续玩，有数据" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="620" y="130" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-53" value="设备C1登陆拼音" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="230" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-54" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="540" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-55" value="推出手机账户，设备C1游客登陆" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="550" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-67" value="新用户，数据从0开始" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6V99o7FiydnXsoHUSXtA-57" target="6V99o7FiydnXsoHUSXtA-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-57" value="5⃣️游客模式&lt;br&gt;uid1，app_id=0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6V99o7FiydnXsoHUSXtA-60" target="6V99o7FiydnXsoHUSXtA-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-70" value="新用户，数据从0开始" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6V99o7FiydnXsoHUSXtA-69">
+          <mxGeometry x="0.04" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-60" value="6⃣️游客模式&lt;br&gt;uid1，app_id=0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-64" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="700" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-65" value="手机号P2在设备C1上注册" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="710" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-66" value="7⃣️注册账户&lt;br&gt;uid2，app_id=0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-68" value="8⃣️注册账户&lt;br&gt;uid2，app_id=1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-71" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="740" y="700" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6V99o7FiydnXsoHUSXtA-72" value="手机号P2在设备C1上注册" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="710" width="150" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
