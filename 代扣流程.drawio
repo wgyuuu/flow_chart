@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-13T06:14:06.666Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="qNVOHGzFMeVZRdmDXBrE" version="15.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-13T06:26:59.216Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Hy9ZR2M7vyYSjgmNJspy" version="15.2.1" type="github">
   <diagram id="bgzZZHYhQTPhg7QTGfTD" name="Page-1">
     <mxGraphModel dx="1298" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -205,7 +205,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oVRuIWFX0pX_K5AUofUP-81" value="7. 客户端查询用户的VIP权益，能否每次进入大地图都调用一次todayPrigress？？？" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" source="oVRuIWFX0pX_K5AUofUP-2" target="oVRuIWFX0pX_K5AUofUP-80" edge="1">
+        <mxCell id="oVRuIWFX0pX_K5AUofUP-81" value="7. 客户端通过每次userinfo接口查询来更新VIP （这个接口调用比较频繁）" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" source="oVRuIWFX0pX_K5AUofUP-2" target="oVRuIWFX0pX_K5AUofUP-80" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="615" y="1290" as="sourcePoint" />
           </mxGeometry>
@@ -222,10 +222,10 @@
           <mxGeometry x="1440" y="370" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="oVRuIWFX0pX_K5AUofUP-85" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" parent="1" vertex="1">
-          <mxGeometry x="1410" y="700" width="20" height="260" as="geometry" />
+          <mxGeometry x="1410" y="710" width="20" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="oVRuIWFX0pX_K5AUofUP-86" value="解约" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1430" y="820" width="40" height="20" as="geometry" />
+        <mxCell id="oVRuIWFX0pX_K5AUofUP-86" value="解约（本期不做）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="830" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="oVRuIWFX0pX_K5AUofUP-87" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" parent="1" vertex="1">
           <mxGeometry x="1410" y="1070" width="20" height="310" as="geometry" />
