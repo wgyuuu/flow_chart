@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T12:23:33.234Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="_6iJkD8gRXv3oxTw_QFF" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T12:26:41.482Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="O3DkcZJJD58M6T0qG6I4" version="15.2.9" type="github">
   <diagram id="3rYF9A5msJi-SgnbIbnh" name="Page-1">
     <mxGraphModel dx="1298" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
         <mxCell id="VNdJiiW6a7HU9gZpMAwW-4" value="权限系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="340" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VNdJiiW6a7HU9gZpMAwW-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="VNdJiiW6a7HU9gZpMAwW-9" target="VNdJiiW6a7HU9gZpMAwW-18">
+        <mxCell id="VNdJiiW6a7HU9gZpMAwW-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="VNdJiiW6a7HU9gZpMAwW-9" target="VNdJiiW6a7HU9gZpMAwW-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VNdJiiW6a7HU9gZpMAwW-20" value="依附一个class" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VNdJiiW6a7HU9gZpMAwW-19">
@@ -69,6 +69,9 @@
         </mxCell>
         <mxCell id="VNdJiiW6a7HU9gZpMAwW-25" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;数据依赖&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="370" y="380" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VNdJiiW6a7HU9gZpMAwW-27" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=30;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="173" width="140" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
