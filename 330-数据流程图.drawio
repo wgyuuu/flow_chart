@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T12:26:41.482Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="O3DkcZJJD58M6T0qG6I4" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T12:29:13.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="xkAzCjfcwtujsThsOaFQ" version="15.2.9" type="github">
   <diagram id="3rYF9A5msJi-SgnbIbnh" name="Page-1">
     <mxGraphModel dx="1298" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,8 +70,11 @@
         <mxCell id="VNdJiiW6a7HU9gZpMAwW-25" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;数据依赖&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="370" y="380" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="VNdJiiW6a7HU9gZpMAwW-27" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=30;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="500" y="173" width="140" height="210" as="geometry" />
+        <mxCell id="VNdJiiW6a7HU9gZpMAwW-28" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;strokeWidth=2;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="640" y="200" width="20" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VNdJiiW6a7HU9gZpMAwW-29" value="课程管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="265" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
