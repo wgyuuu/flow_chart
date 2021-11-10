@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T13:22:47.241Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="uITnyPBvaI8Ny-Bnt1XW" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T13:30:07.722Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="_NcM2iNdpippyBUAfjnM" version="15.2.9" type="github">
   <diagram id="EFhgq3dSjptFHXGTuWmH" name="Page-1">
     <mxGraphModel dx="1298" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="X34FvqKVCvzV2-0w_d18-5" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="110" width="100" height="920" as="geometry" />
+          <mxGeometry x="150" y="110" width="100" height="970" as="geometry" />
         </mxCell>
         <mxCell id="X34FvqKVCvzV2-0w_d18-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X34FvqKVCvzV2-0w_d18-5">
           <mxGeometry x="45" y="140" width="10" height="390" as="geometry" />
         </mxCell>
         <mxCell id="X34FvqKVCvzV2-0w_d18-6" value="permission" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="110" width="100" height="920" as="geometry" />
+          <mxGeometry x="440" y="110" width="100" height="970" as="geometry" />
         </mxCell>
         <mxCell id="X34FvqKVCvzV2-0w_d18-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X34FvqKVCvzV2-0w_d18-6">
           <mxGeometry x="45" y="80" width="10" height="80" as="geometry" />
@@ -28,7 +28,7 @@
         <mxCell id="X34FvqKVCvzV2-0w_d18-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X34FvqKVCvzV2-0w_d18-6">
           <mxGeometry x="45" y="720" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="X34FvqKVCvzV2-0w_d18-40" value="2.2 判断接口权益是否有效 &amp;amp;&lt;br&gt;记录操作日志" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.1;exitY=0.733;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="X34FvqKVCvzV2-0w_d18-39" parent="X34FvqKVCvzV2-0w_d18-6" source="X34FvqKVCvzV2-0w_d18-36">
+        <mxCell id="X34FvqKVCvzV2-0w_d18-40" value="2.2 判断接口权益是否有效" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.1;exitY=0.733;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="X34FvqKVCvzV2-0w_d18-39" parent="X34FvqKVCvzV2-0w_d18-6" source="X34FvqKVCvzV2-0w_d18-36">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="45" y="720" as="sourcePoint" />
             <Array as="points">
@@ -49,7 +49,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="X34FvqKVCvzV2-0w_d18-10" value="智课账号系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="930" y="110" width="100" height="920" as="geometry" />
+          <mxGeometry x="930" y="110" width="100" height="970" as="geometry" />
         </mxCell>
         <mxCell id="X34FvqKVCvzV2-0w_d18-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X34FvqKVCvzV2-0w_d18-10">
           <mxGeometry x="45" y="190" width="10" height="80" as="geometry" />
@@ -60,7 +60,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="X34FvqKVCvzV2-0w_d18-11" value="智课权限系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="110" width="100" height="920" as="geometry" />
+          <mxGeometry x="1230" y="110" width="100" height="970" as="geometry" />
         </mxCell>
         <mxCell id="X34FvqKVCvzV2-0w_d18-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X34FvqKVCvzV2-0w_d18-11">
           <mxGeometry x="45" y="475" width="10" height="80" as="geometry" />
@@ -107,7 +107,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="X34FvqKVCvzV2-0w_d18-29" value="backend" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="650" y="110" width="100" height="920" as="geometry" />
+          <mxGeometry x="650" y="110" width="100" height="970" as="geometry" />
         </mxCell>
         <mxCell id="X34FvqKVCvzV2-0w_d18-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X34FvqKVCvzV2-0w_d18-29">
           <mxGeometry x="45" y="580" width="10" height="220" as="geometry" />
@@ -121,6 +121,17 @@
             <Array as="points">
               <mxPoint x="75" y="800" />
               <mxPoint x="75" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X34FvqKVCvzV2-0w_d18-29">
+          <mxGeometry x="40" y="910" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-54" value="2.4 post接口记录操作日志" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="X34FvqKVCvzV2-0w_d18-53" parent="X34FvqKVCvzV2-0w_d18-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="890" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="890" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -144,10 +155,10 @@
             <mxPoint x="1205" y="760" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X34FvqKVCvzV2-0w_d18-52" value="返回接口查询" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="X34FvqKVCvzV2-0w_d18-44" target="X34FvqKVCvzV2-0w_d18-5">
+        <mxCell id="X34FvqKVCvzV2-0w_d18-55" value="返回接口执行结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="X34FvqKVCvzV2-0w_d18-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="650" y="990" as="sourcePoint" />
-            <mxPoint x="570" y="990" as="targetPoint" />
+            <mxPoint x="690" y="1050" as="sourcePoint" />
+            <mxPoint x="610" y="1050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
