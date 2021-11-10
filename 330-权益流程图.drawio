@@ -1,1 +1,156 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T12:59:34.833Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.2.9" etag="xDwGj1OwUnHDj2-zV3FW" type="github"><diagram id="EFhgq3dSjptFHXGTuWmH">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-10T13:22:23.103Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="yetaEYhiFJQDDd4QeGhr" version="15.2.9" type="github">
+  <diagram id="EFhgq3dSjptFHXGTuWmH" name="Page-1">
+    <mxGraphModel dx="1298" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X34FvqKVCvzV2-0w_d18-5" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="110" width="100" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X34FvqKVCvzV2-0w_d18-5">
+          <mxGeometry x="45" y="140" width="10" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-6" value="permission" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="110" width="100" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X34FvqKVCvzV2-0w_d18-6">
+          <mxGeometry x="45" y="80" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X34FvqKVCvzV2-0w_d18-6">
+          <mxGeometry x="45" y="320" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X34FvqKVCvzV2-0w_d18-6">
+          <mxGeometry x="45" y="430" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X34FvqKVCvzV2-0w_d18-6">
+          <mxGeometry x="45" y="630" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X34FvqKVCvzV2-0w_d18-6">
+          <mxGeometry x="45" y="720" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-40" value="2.2 判断接口权益是否有效 &amp;amp;&lt;br&gt;记录操作日志" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.1;exitY=0.733;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="X34FvqKVCvzV2-0w_d18-39" parent="X34FvqKVCvzV2-0w_d18-6" source="X34FvqKVCvzV2-0w_d18-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="720" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="674" />
+              <mxPoint x="75" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-41" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=0.1;entryY=0.768;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="X34FvqKVCvzV2-0w_d18-6" target="X34FvqKVCvzV2-0w_d18-33">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="750" as="sourcePoint" />
+            <mxPoint x="210" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-42" value="return" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X34FvqKVCvzV2-0w_d18-41">
+          <mxGeometry x="-0.0971" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-10" value="智课账号系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="110" width="100" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X34FvqKVCvzV2-0w_d18-10">
+          <mxGeometry x="45" y="190" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-18" value="1.1 账号登陆" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="X34FvqKVCvzV2-0w_d18-17" parent="X34FvqKVCvzV2-0w_d18-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-730" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-11" value="智课权限系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="110" width="100" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X34FvqKVCvzV2-0w_d18-11">
+          <mxGeometry x="45" y="475" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-48" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="X34FvqKVCvzV2-0w_d18-46" parent="X34FvqKVCvzV2-0w_d18-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" y="551" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X34FvqKVCvzV2-0w_d18-11">
+          <mxGeometry x="45" y="650" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-51" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="X34FvqKVCvzV2-0w_d18-49" parent="X34FvqKVCvzV2-0w_d18-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" y="688" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-15" value="1. 查询菜单列表" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="X34FvqKVCvzV2-0w_d18-14" parent="1" source="X34FvqKVCvzV2-0w_d18-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-16" value="return&lt;br&gt;-&amp;gt; 登陆：返回菜单列表&lt;br&gt;-&amp;gt; 未登录：返回登陆跳转链接" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="X34FvqKVCvzV2-0w_d18-14" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="266" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-19" value="return token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="X34FvqKVCvzV2-0w_d18-17" parent="1" target="X34FvqKVCvzV2-0w_d18-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="905" y="376" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-24" value="1.2 请求种cookie" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="X34FvqKVCvzV2-0w_d18-23" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-26" value="1.3 查询菜单列表" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="X34FvqKVCvzV2-0w_d18-25" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="207" y="570" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="280" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-29" value="backend" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="110" width="100" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X34FvqKVCvzV2-0w_d18-29">
+          <mxGeometry x="45" y="580" width="10" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="X34FvqKVCvzV2-0w_d18-29">
+          <mxGeometry x="40" y="850" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-45" value="2.3 执行接口逻辑" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="X34FvqKVCvzV2-0w_d18-44" parent="X34FvqKVCvzV2-0w_d18-29" source="X34FvqKVCvzV2-0w_d18-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="830" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="800" />
+              <mxPoint x="75" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-34" value="2 接口查询" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="X34FvqKVCvzV2-0w_d18-33" parent="1" source="X34FvqKVCvzV2-0w_d18-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="690" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-37" value="2.1 权限检查" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;" edge="1" target="X34FvqKVCvzV2-0w_d18-36" parent="1" source="X34FvqKVCvzV2-0w_d18-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="740" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-47" value="1.4 查询用户权益菜单" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="X34FvqKVCvzV2-0w_d18-46" parent="1" source="X34FvqKVCvzV2-0w_d18-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1205" y="585" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-50" value="2.2 查询用户权益" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="X34FvqKVCvzV2-0w_d18-49" parent="1" source="X34FvqKVCvzV2-0w_d18-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1205" y="760" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X34FvqKVCvzV2-0w_d18-52" value="返回接口查询" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="X34FvqKVCvzV2-0w_d18-44" target="X34FvqKVCvzV2-0w_d18-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="990" as="sourcePoint" />
+            <mxPoint x="570" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
