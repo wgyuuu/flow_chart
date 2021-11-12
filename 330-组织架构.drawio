@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-11T16:16:39.071Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="OoDsiZvU_KK8QGMTFjnm" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-12T02:43:29.042Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="GAl_FNamXFEWUl1HoCY9" version="15.7.3" type="github">
   <diagram id="WjtngKlxxI89z5vrXLza" name="Page-1">
-    <mxGraphModel dx="1426" dy="1937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="1977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,7 +26,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kWre7aYjum0aQE5Ph01D-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.545;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JXl9UZpQLRbNxS5vK6GL-2" target="kWre7aYjum0aQE5Ph01D-1">
+        <mxCell id="kWre7aYjum0aQE5Ph01D-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.545;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JXl9UZpQLRbNxS5vK6GL-2" target="kWre7aYjum0aQE5Ph01D-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JXl9UZpQLRbNxS5vK6GL-2" value="区域和行政组织关系" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -244,16 +244,16 @@
         <mxCell id="YnnRCDbAlTQCQp5EsrhO-1" value="用户操作&lt;br&gt;记录" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="250" y="130" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kWre7aYjum0aQE5Ph01D-1" value="组织系统" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="kWre7aYjum0aQE5Ph01D-1" value="组织系统" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="380" y="100" width="220" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="kWre7aYjum0aQE5Ph01D-2" value="机构管理&lt;br&gt;（机构和教育局关系）" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="kWre7aYjum0aQE5Ph01D-2" value="机构管理&lt;br&gt;（机构和教育局关系）" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="400" y="130" width="86" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kWre7aYjum0aQE5Ph01D-3" value="家长和学生关系" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="kWre7aYjum0aQE5Ph01D-3" value="家长和学生关系" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="500" y="130" width="86" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kWre7aYjum0aQE5Ph01D-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kWre7aYjum0aQE5Ph01D-4" target="JXl9UZpQLRbNxS5vK6GL-11">
+        <mxCell id="kWre7aYjum0aQE5Ph01D-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="kWre7aYjum0aQE5Ph01D-4" target="JXl9UZpQLRbNxS5vK6GL-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="663" y="320" />
@@ -261,11 +261,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kWre7aYjum0aQE5Ph01D-4" value="教室管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="kWre7aYjum0aQE5Ph01D-4" value="教室管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="603" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kWre7aYjum0aQE5Ph01D-7" value="封装组织关系接口能力，&lt;br&gt;适用我们的业务服务" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="kWre7aYjum0aQE5Ph01D-7" value="封装组织关系接口能力，&lt;br&gt;适用我们的业务服务" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="415.5" y="180" width="149" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-iJsn7JMXlw4M-_mxtLK-1" value="合并为一个服务" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="602" y="140" width="88" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
