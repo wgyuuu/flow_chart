@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T02:43:29.042Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="GAl_FNamXFEWUl1HoCY9" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-12T05:12:29.125Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="OsVf2bNqAE9T8va7W0DU" version="15.7.3" type="github">
   <diagram id="WjtngKlxxI89z5vrXLza" name="Page-1">
     <mxGraphModel dx="1298" dy="1977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -250,7 +250,7 @@
         <mxCell id="kWre7aYjum0aQE5Ph01D-2" value="机构管理&lt;br&gt;（机构和教育局关系）" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="400" y="130" width="86" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kWre7aYjum0aQE5Ph01D-3" value="家长和学生关系" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="kWre7aYjum0aQE5Ph01D-3" value="家长的进校uid和公司统一账号uid对应关系" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="500" y="130" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kWre7aYjum0aQE5Ph01D-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="kWre7aYjum0aQE5Ph01D-4" target="JXl9UZpQLRbNxS5vK6GL-11" edge="1">
@@ -264,10 +264,7 @@
         <mxCell id="kWre7aYjum0aQE5Ph01D-4" value="教室管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="603" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kWre7aYjum0aQE5Ph01D-7" value="封装组织关系接口能力，&lt;br&gt;适用我们的业务服务" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="415.5" y="180" width="149" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-iJsn7JMXlw4M-_mxtLK-1" value="合并为一个服务" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-iJsn7JMXlw4M-_mxtLK-1" value="合并为一个服务" style="shape=singleArrow;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="602" y="140" width="88" height="40" as="geometry" />
         </mxCell>
       </root>
