@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T13:50:56.337Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="aCoMsNk6BQt0t2a4vT_X" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-13T01:36:03.172Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="wONoPcniRBGFDltM6pcY" version="15.7.3" type="github">
   <diagram id="Sh9ZN9qXcryNvB_XNzxi" name="Page-1">
     <mxGraphModel dx="1298" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -124,6 +124,9 @@
         <mxCell id="Uivm2bNcq1ei9wYF2XW2-109" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#6600CC;" parent="Uivm2bNcq1ei9wYF2XW2-2" vertex="1">
           <mxGeometry x="45" y="1710" width="10" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="W2MWFIsXaP04NMMi4aEr-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#6600CC;" vertex="1" parent="Uivm2bNcq1ei9wYF2XW2-2">
+          <mxGeometry x="43" y="1600" width="10" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="Uivm2bNcq1ei9wYF2XW2-3" value="售卖中台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1080" y="130" width="100" height="2040" as="geometry" />
         </mxCell>
@@ -155,13 +158,16 @@
         <mxCell id="Uivm2bNcq1ei9wYF2XW2-99" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#6600CC;" parent="Uivm2bNcq1ei9wYF2XW2-3" vertex="1">
           <mxGeometry x="40" y="1690" width="10" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Uivm2bNcq1ei9wYF2XW2-100" value="5 发起退款" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;strokeColor=#6600CC;" parent="Uivm2bNcq1ei9wYF2XW2-3" target="Uivm2bNcq1ei9wYF2XW2-99" edge="1">
+        <mxCell id="Uivm2bNcq1ei9wYF2XW2-100" value="5 开始退款" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;strokeColor=#6600CC;" parent="Uivm2bNcq1ei9wYF2XW2-3" target="Uivm2bNcq1ei9wYF2XW2-99" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="45" y="1670" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="75" y="1670" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="W2MWFIsXaP04NMMi4aEr-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#6600CC;" vertex="1" parent="Uivm2bNcq1ei9wYF2XW2-3">
+          <mxGeometry x="45" y="1624" width="10" height="36" as="geometry" />
         </mxCell>
         <mxCell id="Uivm2bNcq1ei9wYF2XW2-4" value="内部课程管理系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="414" y="130" width="100" height="2030" as="geometry" />
@@ -313,6 +319,16 @@
         <mxCell id="Uivm2bNcq1ei9wYF2XW2-108" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;rounded=0;strokeColor=#6600CC;" parent="1" source="Uivm2bNcq1ei9wYF2XW2-106" target="Uivm2bNcq1ei9wYF2XW2-101" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="531" y="2017" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W2MWFIsXaP04NMMi4aEr-2" value="5 发起退款" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;strokeColor=#6600CC;" edge="1" target="W2MWFIsXaP04NMMi4aEr-1" parent="1" source="Uivm2bNcq1ei9wYF2XW2-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="1730" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W2MWFIsXaP04NMMi4aEr-5" value="5.1 调用售卖发起退款申请" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;strokeColor=#6600CC;" edge="1" target="W2MWFIsXaP04NMMi4aEr-4" parent="1" source="Uivm2bNcq1ei9wYF2XW2-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1055" y="1754" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
