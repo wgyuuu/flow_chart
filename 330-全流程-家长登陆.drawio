@@ -1,1 +1,123 @@
-<mxfile host="app.diagrams.net" modified="2021-11-13T11:03:18.624Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.7.3" etag="wIV6fDR0gLg9oo4iBfoZ" type="github"><diagram id="7f0jihHXwXZ-gA36p7bH">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-13T13:24:12.977Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="L5ArBdUYjOrFNDUKWnsb" version="15.7.3" type="github">
+  <diagram id="7f0jihHXwXZ-gA36p7bH" name="Page-1">
+    <mxGraphModel dx="2125" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-1" value="C端服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="90" y="50" width="100" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="EqGyCQUnoSdUQBYwbU9g-1">
+          <mxGeometry x="45" y="130" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="EqGyCQUnoSdUQBYwbU9g-1">
+          <mxGeometry x="50" y="350" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-44" value="6 种zybuss到返回header的cookie中去" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" target="EqGyCQUnoSdUQBYwbU9g-43" parent="EqGyCQUnoSdUQBYwbU9g-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="330" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-2" value="权限系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="380" y="50" width="100" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="EqGyCQUnoSdUQBYwbU9g-2">
+          <mxGeometry x="45" y="160" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="EqGyCQUnoSdUQBYwbU9g-2">
+          <mxGeometry x="50" y="239" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-41" value="5 记录智课uid和saas的uid的绑定关系" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" target="EqGyCQUnoSdUQBYwbU9g-40" parent="EqGyCQUnoSdUQBYwbU9g-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="219" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="219" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-3" value="智课账号" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="700" y="50" width="100" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="EqGyCQUnoSdUQBYwbU9g-3">
+          <mxGeometry x="45" y="80" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-4" value="saas" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="960" y="50" width="100" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="EqGyCQUnoSdUQBYwbU9g-4">
+          <mxGeometry x="45" y="170" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-12" value="家长小程序" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="50" width="100" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-19" value="登陆可能需要我们自己弄一个端的sdk？" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-24" value="1 微信登陆" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" target="EqGyCQUnoSdUQBYwbU9g-23" parent="1" source="EqGyCQUnoSdUQBYwbU9g-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="685" y="130" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-20" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-25" value="登陆" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="120" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-26" value="return token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="EqGyCQUnoSdUQBYwbU9g-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="170" as="sourcePoint" />
+            <mxPoint x="660" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-28" value="2 请求服务端登陆接口" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" target="EqGyCQUnoSdUQBYwbU9g-27" parent="1" source="EqGyCQUnoSdUQBYwbU9g-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-30" value="家长账号在孩子信息录入时就生成了。" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-32" value="3 请求权限系统，换取zybuss" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" target="EqGyCQUnoSdUQBYwbU9g-31" parent="1" source="EqGyCQUnoSdUQBYwbU9g-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-38" value="4 请求saas生成uid" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" target="EqGyCQUnoSdUQBYwbU9g-37" parent="1" source="EqGyCQUnoSdUQBYwbU9g-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="935" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-39" value="return uid &amp;amp; zybuss" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" source="EqGyCQUnoSdUQBYwbU9g-37" parent="1" target="EqGyCQUnoSdUQBYwbU9g-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="935" y="296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-42" value="return uid 和 zybuss" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="EqGyCQUnoSdUQBYwbU9g-31" target="EqGyCQUnoSdUQBYwbU9g-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="350" as="sourcePoint" />
+            <mxPoint x="330" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EqGyCQUnoSdUQBYwbU9g-45" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="460" as="sourcePoint" />
+            <mxPoint x="80" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
