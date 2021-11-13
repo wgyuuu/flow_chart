@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-13T02:12:36.156Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="hc40QLwJwwEJhdWrvsbH" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-13T02:12:52.666Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="90SmR2XnOvXFzzD1B1MH" version="15.7.3" type="github">
   <diagram id="WjtngKlxxI89z5vrXLza" name="Page-1">
     <mxGraphModel dx="1298" dy="1977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -243,7 +243,7 @@
           <mxGeometry x="578" y="180" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kWre7aYjum0aQE5Ph01D-3" value="家长的进校uid和公司统一账号uid对应关系" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="227" y="180" width="86" height="40" as="geometry" />
+          <mxGeometry x="227" y="175" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kWre7aYjum0aQE5Ph01D-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="kWre7aYjum0aQE5Ph01D-4" target="JXl9UZpQLRbNxS5vK6GL-11" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -257,7 +257,7 @@
           <mxGeometry x="700" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZxOD4Wfd9RE_yHNsCIBU-1" value="封装登陆注册能力" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="129" y="180" width="86" height="40" as="geometry" />
+          <mxGeometry x="129" y="175" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZxOD4Wfd9RE_yHNsCIBU-2" value="批量通知" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1660" y="130" width="86" height="40" as="geometry" />
