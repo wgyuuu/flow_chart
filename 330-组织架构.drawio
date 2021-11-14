@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-13T15:51:03.109Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="O2uQYyb7CtP9ZPUmKX52" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-14T02:11:19.300Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="v-e97M17GFdj2KK4CZWz" version="15.7.3" type="github">
   <diagram id="WjtngKlxxI89z5vrXLza" name="Page-1">
     <mxGraphModel dx="1298" dy="1977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -239,8 +239,8 @@
         <mxCell id="YnnRCDbAlTQCQp5EsrhO-1" value="用户操作&lt;br&gt;记录" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="250" y="130" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kWre7aYjum0aQE5Ph01D-2" value="机构管理&lt;br&gt;（机构和教育局关系）" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="528" y="180" width="86" height="40" as="geometry" />
+        <mxCell id="kWre7aYjum0aQE5Ph01D-2" value="机构管理" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="130" y="-130" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kWre7aYjum0aQE5Ph01D-3" value="家长的进校uid和公司统一账号uid对应关系" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="227" y="175" width="86" height="40" as="geometry" />
@@ -259,14 +259,20 @@
         <mxCell id="ZxOD4Wfd9RE_yHNsCIBU-1" value="封装登陆注册能力" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="129" y="175" width="86" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hX9b8_usBmOsMMzPWUNE-1" value="消息系统" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="hX9b8_usBmOsMMzPWUNE-1" value="消息系统" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1718" y="80" width="170" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="hX9b8_usBmOsMMzPWUNE-2" value="系统的用户消息队列" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="hX9b8_usBmOsMMzPWUNE-2" value="系统的用户消息队列" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1760" y="130" width="86" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hX9b8_usBmOsMMzPWUNE-3" value="短信通知" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="hX9b8_usBmOsMMzPWUNE-3" value="短信通知" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1760" y="175" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eDyPjXn4NJpU-JNRjE8H-2" value="&lt;span&gt;机构和教育局关系表&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="216" y="-140" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eDyPjXn4NJpU-JNRjE8H-3" value="学期数据" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="534" y="180" width="86" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
