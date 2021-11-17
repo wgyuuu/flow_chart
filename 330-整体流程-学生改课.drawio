@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-11-13T10:58:22.397Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="8Uvoex9FiLuItuEW_pBS" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-17T08:25:34.711Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="ayD-dV5JRa_YBLif2fZ2" version="15.7.3" type="github">
   <diagram id="E9qbDYDOtKsYONIH9-f7" name="Page-1">
     <mxGraphModel dx="1298" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XqyBOipwKsmBVul3KAgj-1" value="教务系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="XqyBOipwKsmBVul3KAgj-1" value="教务系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="90" y="40" width="100" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="XqyBOipwKsmBVul3KAgj-1">
+        <mxCell id="XqyBOipwKsmBVul3KAgj-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="XqyBOipwKsmBVul3KAgj-1" vertex="1">
           <mxGeometry x="45" y="130" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-8" value="2 判断是否符合转班条件" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" target="XqyBOipwKsmBVul3KAgj-7" parent="XqyBOipwKsmBVul3KAgj-1">
+        <mxCell id="XqyBOipwKsmBVul3KAgj-8" value="2 判断是否符合转班条件" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="XqyBOipwKsmBVul3KAgj-1" target="XqyBOipwKsmBVul3KAgj-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="110" as="sourcePoint" />
             <Array as="points">
@@ -18,66 +18,41 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-2" value="课程系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="XqyBOipwKsmBVul3KAgj-2" value="课程系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="380" y="40" width="100" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="XqyBOipwKsmBVul3KAgj-2">
+        <mxCell id="XqyBOipwKsmBVul3KAgj-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="XqyBOipwKsmBVul3KAgj-2" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="XqyBOipwKsmBVul3KAgj-2">
-          <mxGeometry x="45" y="260" width="10" height="160" as="geometry" />
+        <mxCell id="XqyBOipwKsmBVul3KAgj-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="XqyBOipwKsmBVul3KAgj-2" vertex="1">
+          <mxGeometry x="45" y="170" width="10" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="XqyBOipwKsmBVul3KAgj-2">
-          <mxGeometry x="55" y="300" width="10" height="40" as="geometry" />
+        <mxCell id="XqyBOipwKsmBVul3KAgj-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="XqyBOipwKsmBVul3KAgj-2" vertex="1">
+          <mxGeometry x="55" y="210" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-24" value="6 将学生原有课程设置为转班状态" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" target="XqyBOipwKsmBVul3KAgj-23" parent="XqyBOipwKsmBVul3KAgj-2">
+        <mxCell id="XqyBOipwKsmBVul3KAgj-24" value="4 将学生原有学生课程设置为转班状态" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="XqyBOipwKsmBVul3KAgj-2" target="XqyBOipwKsmBVul3KAgj-23" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="280" as="sourcePoint" />
+            <mxPoint x="60" y="190" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="90" y="280" />
+              <mxPoint x="90" y="190" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="XqyBOipwKsmBVul3KAgj-2">
-          <mxGeometry x="50" y="360" width="10" height="40" as="geometry" />
+        <mxCell id="XqyBOipwKsmBVul3KAgj-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="XqyBOipwKsmBVul3KAgj-2" vertex="1">
+          <mxGeometry x="50" y="270" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-26" value="7 新创建学生课程" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" target="XqyBOipwKsmBVul3KAgj-25" parent="XqyBOipwKsmBVul3KAgj-2">
+        <mxCell id="XqyBOipwKsmBVul3KAgj-26" value="5 新创建学生课程" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="XqyBOipwKsmBVul3KAgj-2" target="XqyBOipwKsmBVul3KAgj-25" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="340" as="sourcePoint" />
+            <mxPoint x="55" y="250" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="85" y="340" />
+              <mxPoint x="85" y="250" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-3" value="售卖系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="XqyBOipwKsmBVul3KAgj-3" value="售卖系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="680" y="40" width="100" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="XqyBOipwKsmBVul3KAgj-3">
-          <mxGeometry x="45" y="180" width="10" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="XqyBOipwKsmBVul3KAgj-3">
-          <mxGeometry x="50" y="220" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-19" value="4 判断课程的sku是否可以转班" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" target="XqyBOipwKsmBVul3KAgj-18" parent="XqyBOipwKsmBVul3KAgj-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="200" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="85" y="200" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="XqyBOipwKsmBVul3KAgj-3">
-          <mxGeometry x="50" y="430" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-32" value="9 设置原购买订单为转班订单状态&lt;br&gt;&amp;amp; 创建新的订单记录新的courseId" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" target="XqyBOipwKsmBVul3KAgj-31" parent="XqyBOipwKsmBVul3KAgj-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="410" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="85" y="410" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-5" value="1 查看课程和用户信息" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" target="XqyBOipwKsmBVul3KAgj-4" parent="1" source="XqyBOipwKsmBVul3KAgj-1">
+        <mxCell id="XqyBOipwKsmBVul3KAgj-5" value="1 查看课程和用户信息" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="XqyBOipwKsmBVul3KAgj-1" target="XqyBOipwKsmBVul3KAgj-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="365" y="110" as="sourcePoint" />
             <Array as="points">
@@ -85,7 +60,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-6" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="XqyBOipwKsmBVul3KAgj-4">
+        <mxCell id="XqyBOipwKsmBVul3KAgj-6" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="XqyBOipwKsmBVul3KAgj-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="420" y="140" as="sourcePoint" />
             <mxPoint x="380" y="150" as="targetPoint" />
@@ -94,38 +69,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-9" value="发起转班" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+        <mxCell id="XqyBOipwKsmBVul3KAgj-9" value="发起转班" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
           <mxGeometry x="70" y="100" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-11" value="3 发起转班" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" target="XqyBOipwKsmBVul3KAgj-10" parent="1" source="XqyBOipwKsmBVul3KAgj-1">
+        <mxCell id="XqyBOipwKsmBVul3KAgj-11" value="3 发起转班" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="XqyBOipwKsmBVul3KAgj-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="655" y="220" as="sourcePoint" />
+            <mxPoint x="430" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-13" value="a. 如果是合班，被转的那个班对应的sku所绑定的courseId就要换了" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="980" y="160" width="120" height="80" as="geometry" />
+        <mxCell id="XqyBOipwKsmBVul3KAgj-14" value="订单不存courseId,所以转班售卖系统无感知" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="760" y="110" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-14" value="b. 课程和sku的关系保存在业务自己放？" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="980" y="250" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-21" value="5 发起转班" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" target="XqyBOipwKsmBVul3KAgj-20" parent="1" source="XqyBOipwKsmBVul3KAgj-3">
+        <mxCell id="XqyBOipwKsmBVul3KAgj-33" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.9;exitY=0.956;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="XqyBOipwKsmBVul3KAgj-20" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="495" y="300" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-30" value="8 返回新的courseId" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="XqyBOipwKsmBVul3KAgj-20" target="XqyBOipwKsmBVul3KAgj-3">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="450" y="440" as="sourcePoint" />
-            <mxPoint x="610" y="440" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="620" y="450" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XqyBOipwKsmBVul3KAgj-33" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.6;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="XqyBOipwKsmBVul3KAgj-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720" y="520" as="sourcePoint" />
-            <mxPoint x="640" y="520" as="targetPoint" />
+            <mxPoint x="731" y="520.9000000000001" as="sourcePoint" />
+            <mxPoint x="370" y="363" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
